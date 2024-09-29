@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/drawable/circle_timer_background.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Set the solid color (background of the circle) -->
+    <solid android:color="#1DE9B6"/> <!-- Light green background (you can change the color) -->
+
+    <!-- Define the shape's corners to be round (circle) -->
+    <corners android:radius="50dp"/> <!-- This creates the circular shape -->
+
+    <!-- Optional: Add a border to the circle -->
+    <stroke
+        android:width="2dp"
+        android:color="#00C853"/> <!-- Dark green border (can be customized) -->
+</shape>
